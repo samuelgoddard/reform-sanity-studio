@@ -12,6 +12,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "External URL",
+      description: "If entered, this journal teaser will link off to an external site rather than internally within the website.'",
+      name: "externalUrl",
+      type: "string"
+    },
+    {
       title: "Publish Date",
       description: "Press the button to the right to pick a date.",
       name: "date",

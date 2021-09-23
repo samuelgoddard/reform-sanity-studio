@@ -1,5 +1,8 @@
 const globalSlugs = {
-  home: '/'
+  home: '/',
+  about: '/about',
+  journal: '/journal',
+  projects: '/projects'
 }
 
 const secret = process.env.SANITY_STUDIO_SANITY_PREVIEW_SECRET

@@ -39,7 +39,7 @@ export default () =>
     .items([
       S.listItem().title('Home').child(S.editor().id('home').schemaType('home').documentId('singleton-home').views(getPreview('home'))).icon(FiHome),
       S.divider(),
-      S.listItem().title('About').child(S.editor().id('about').schemaType('about').documentId('singleton-about').views(getPreview('home'))).icon(FiSmile),
+      S.listItem().title('About').child(S.editor().id('about').schemaType('about').documentId('singleton-about').views(getPreview('about'))).icon(FiSmile),
       S.divider(),
       S.listItem().title('Team').child(S.documentTypeList('team').title('Team')).icon(FiUsers),
       S.divider(),
