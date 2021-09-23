@@ -5,11 +5,11 @@ const globalSlugs = {
   projects: '/projects'
 }
 
-const secret = process.env.SANITY_STUDIO_SANITY_PREVIEW_SECRET
+const secret = `skpoTwTkcjfqk3c8qour5vVlgQblUWJ5SdaOoYSd6jxNgv32C6wC25LYMZLBo0w21tyY9AjAKI1hallJ2TWQsLIcA8XtnX9EQgRh8bwBu2hsZPUAvQQWsyIfO1bc8WojWZDgrO7KYOMvyz6u3zxRYJzEYBtLOO7ZaPbKy0g5dgefvqxmLgp7`
 export const getGlobalSlug = (slug) => globalSlugs[slug]
 
 // TODO: Change remote url
-const remoteURL = 'https://reform-2021.vercel.app/'
+const remoteURL = 'https://reform-2021.vercel.app'
 const localURL = 'http://localhost:3000'
 export const previewURL = window.location.hostname === 'localhost' ? localURL : remoteURL
 
