@@ -11,6 +11,8 @@ import singletonAbout from './singletonAbout'
 import projects from './projects'
 import expertises from './expertises'
 import journal from './journal'
+import singletonPrivacy from './singletonPrivacy'
+import singletonMenu from './singletonMenu'
 
 export default createSchema({
   name: 'default',
@@ -18,6 +20,8 @@ export default createSchema({
     singletonHome,
     singletonAbout,
     singletonContact,
+    singletonPrivacy,
+    singletonMenu,
     team,
     projects,
     expertises,
