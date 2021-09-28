@@ -23,6 +23,13 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Teaser Text",
+      name: "teaserText",
+      description: "The text that will show on the home page teaser for this expertise.",
+      type: "text",
+      validation: Rule => Rule.required()
+    },
+    {
       title: "Intro Text",
       name: "introText",
       type: 'array', 
