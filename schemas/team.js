@@ -25,6 +25,12 @@ export default {
       name: "bio",
       type: "text",
       validation: Rule => Rule.required()
-    }
+    },
+    {
+      name: "order",
+      title: "Order",
+      type: "number",
+      hidden: true,
+    },
   ]
 }
