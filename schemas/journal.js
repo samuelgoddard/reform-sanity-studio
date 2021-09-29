@@ -12,6 +12,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: "Images Top",
+      description: "If this is toggled the images will appear at the top rather than the sidebar allowing more room for content",
+      name: "imagesTop",
+      type: "boolean"
+    },
+    {
       title: "External URL",
       description: "If entered, this journal teaser will link off to an external site rather than internally within the website.'",
       name: "externalUrl",
