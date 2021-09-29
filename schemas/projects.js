@@ -26,8 +26,14 @@ export default {
     {
       title: 'Expertises',
       name: 'expertises',
-      type: 'reference',
-      to: [{type: 'expertises'}],
+      type: 'array',
+      of: [
+        {
+          name: 'expertises',
+          type: 'reference',
+          to: [{type: 'expertises'}]
+        }
+      ],
       validation: Rule => Rule.required()
     },
     {
