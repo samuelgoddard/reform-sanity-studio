@@ -9,7 +9,7 @@ const secret = `skpoTwTkcjfqk3c8qour5vVlgQblUWJ5SdaOoYSd6jxNgv32C6wC25LYMZLBo0w2
 export const getGlobalSlug = (slug) => globalSlugs[slug]
 
 // TODO: Change remote url
-const remoteURL = 'https://reform-2021.vercel.app'
+const remoteURL = 'https://reform-property.com'
 const localURL = 'http://localhost:3000'
 export const previewURL = window.location.hostname === 'localhost' ? localURL : remoteURL
 
