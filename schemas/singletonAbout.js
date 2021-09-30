@@ -33,8 +33,7 @@ export default {
       title: 'Our Team',
       name: 'ourTeam',
       type: 'array', 
-      of: [{type: 'block'}],
-      validation: Rule => Rule.required()
+      of: [{type: 'block'}]
     },
     {
       title: 'Supporting Image',

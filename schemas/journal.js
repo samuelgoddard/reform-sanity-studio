@@ -41,6 +41,20 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      title: 'Teaser Image Layout',
+      name: 'layout',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Square', value: 'square'},
+          {title: 'Landscape', value: 'landscape'},
+          {title: 'Portrait', value: 'portrait'},
+          {title: 'Small Square', value: 'small-square'}
+        ],
+        layout: 'dropdown'
+      }
+    },
+    {
       title: 'Images',
       name: 'images',
       type: 'array',

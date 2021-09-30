@@ -37,15 +37,15 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      title: "Process",
+      title: "Values",
       name: "process",
       type: 'array', 
-      description: 'The blocks that lay out the process of this experise.',
+      description: 'The blocks that lay out the values of this experise.',
       of: [{type: 'process'}],
       validation: Rule => Rule.required()
     },
     {
-      title: "Process Image",
+      title: "Value Image",
       name: "processImage",
       type: 'image'
     },
