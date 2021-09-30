@@ -9,7 +9,6 @@ export default {
       title: "Title",
       name: "title",
       type: "string",
-      validation: Rule => Rule.required()
     },
     {
       title: "Images Top",
@@ -37,8 +36,7 @@ export default {
       title: "Meta Type",
       description: "A short meta description of what this journal entry is about, eg: 'Project Update'",
       name: "metaType",
-      type: "string",
-      validation: Rule => Rule.required()
+      type: "string"
     },
     {
       title: 'Teaser Image Layout',
@@ -95,8 +93,7 @@ export default {
         source: 'title',
         maxLength: 96,
         slugify: title => slugify(title)
-      },
-      validation: Rule => Rule.required()
+      }
     },
     {
       title: 'SEO / Share Settings',
